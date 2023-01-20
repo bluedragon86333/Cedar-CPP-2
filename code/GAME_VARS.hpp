@@ -1,5 +1,6 @@
 #include<iostream>
 #include"SFML/Graphics.hpp"
+#include"primitives/
 using namespace std;
 
 namespace GameVars {
@@ -11,8 +12,14 @@ namespace GameVars {
 	extern int MAP_HEIGHT;
 
 	extern bool isBossRoom;
-
-
+	
+	extern int SCRN_ID;
+	
+	extern int TILE_SIZE;
+	extern int TILE_MARGIN;
+	extern sf::Color TILE_BORDER_COLOR;
+	extern int TILE_WIDTH;
+	extern int TILE_HEIGHT;
 	//////////////////////** PLAYER VARIABLES **//////////////////////
 	class Player_Variables {
 	public:
